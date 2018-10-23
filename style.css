@@ -1,0 +1,296 @@
+body{
+    background: aliceblue;
+}
+
+/*             START INDREDIENTS    */
+#ingredients{
+    width: 80%;
+    background: white;
+    margin: 0 auto;
+}
+#serveses{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+}
+#serves_2{
+    font-weight: bold;
+    display: block;
+}
+#serves_2, #serves_4{
+   margin-right: 20px;
+}
+#serves_4, #serves_6, #serves_2 {
+    cursor: pointer;
+}
+input[type=text] {
+    border: none;
+    border-bottom: 1px solid grey;
+    line-height: 25px;
+    margin-top: 6px;
+    background: transparent;
+}
+input:focus, select:focus{
+    outline: none;
+}
+.inputFirst_2, .inputFirst_4, .inputFirst_6{
+    width: 100%;
+}
+.inputSecond_2, .inputSecond_4, .inputSecond_6{
+    width: 100%;
+}
+.inputThird_2, .inputThird_4, .inputThird_6{
+    width: 100%;
+}
+.firstInput{
+    width: 22%;
+}
+.thirdInput{
+    width: 25%;
+}
+.secondInput, .firstSelect, .secondSelect{
+    width: 9%;
+}
+
+.selectFirst_2, .selectSecond_2, .selectFirst_4, .selectSecond_4, .selectFirst_6, .selectSecond_6{
+    width: 100%;
+    height: 29px;
+    margin-top: 5px;
+    border: none;
+    color: grey;
+    border-bottom: 1px solid grey;
+    background : url('drop-down-arrow.png') no-repeat 100% 50%;
+}
+
+
+select{
+    -webkit-appearance: none;
+}
+table{
+    border-collapse: collapse;
+    width: 100%;
+}
+th{
+    width: 4%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+tr{
+    height: 50px;
+    display: flex;
+}
+td{
+    margin: 0 12px;
+}
+tr:nth-child(2n){
+    background-color: #f2f2f2;
+}
+select option{
+    margin: 40px;
+    background: rgba(0, 0, 0, 0.3);
+    color: #fff;
+    text-shadow: 0 1px 0 rgba(0, 0, 0, 0.4);
+}
+#serves_2_table{
+    display: block;
+}
+#serves_4_table, #serves_6_table {
+    display: none;
+}
+/*           END     INGREDIENTS        */
+
+
+/*           ADD     BUTTONS          */
+
+.addIngredient_2, .addIngredient_4, .addIngredient_6{
+    display: flex;
+    justify-content: flex-start;
+    padding: 35px 0 60px 55px;
+}
+#oneIngredient_2, #tenIngredient_2, #oneIngredient_4, #tenIngredient_4, #oneIngredient_6, #tenIngredient_6{
+    width: 100px;
+    height: 40px;
+    margin: 15px;
+    border: none;
+    border-radius: 20px;
+    font-size: 15px;
+    cursor: pointer;
+}
+#oneIngredient_2:focus, #tenIngredient_2:focus, #oneIngredient_4:focus, #tenIngredient_4:focus, #oneIngredient_6:focus, #tenIngredient_6:focus{
+    outline: none;
+}
+#oneIngredient_2, #oneIngredient_4, #oneIngredient_6{
+    color: white;
+    background: #f72f2f;
+}
+#tenIngredient_2, #tenIngredient_4, #tenIngredient_6{
+    color: grey;
+    background: white;
+    border: 1px solid grey;
+}
+
+
+/*          END       BUTTONS       */
+
+
+/*              START    TAGS             */
+
+#tags{
+    height: 350px;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    margin: 200px auto;
+    background: white;
+    box-shadow: 2px 3px 11px -1px rgba(0,0,0,0.75);
+}
+.left{
+    width: 40%;
+    min-width: 300px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 30px 0 30px 50px;
+}
+.leftButtons{
+    display: flex;
+    justify-content: space-between;
+}
+.leftButtons p{
+    font-size: 18px;
+    margin: 5px;
+    display: inline-block;
+}
+#firstColumn, #secondColumn, #thirdColumn, #fourthColumn{
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+}
+#low-carb, #paleo, #vegan, #gluten-free,
+#ketogenic, #macros, #vegetarian, #low-calorie,
+#popular, #americana, #italian, #greek,
+#seasonal, #latin, #asian, #indian{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    margin: 5px;
+    cursor: pointer;
+}
+#low, #pal, #veg, #glu, #ket, #mac, #veg1, #low1{
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    border: 1px solid grey;
+    border-radius: 20px;
+    padding: 2px 10px;
+}
+.firstLeft, .secondLeft, .thirdLeft, .fourthLeft,
+.fifthLeft, .sixthLeft, .seventhLeft, .eighthLeft,
+.firstRight, .secondRight, .thirdRight, .fourthRight,
+.fifthRight, .sixthRight, .seventhRight, .eighthRight{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+.firstLeftClose, .secondLeftClose, .thirdLeftClose, .fourthLeftClose,
+.fifthLeftClose, .sixthLeftClose, .seventhLeftClose, .eighthLeftClose,
+.firstRightClose, .secondRightClose, .thirdRightClose, .fourthRightClose,
+.fifthRightClose, .sixthRightClose, .seventhRightClose, .eighthRightClose{
+    width: 10px;
+    height: 10px;
+    border: 3px solid;
+    border-radius: 50%;
+    background: white;
+    background-image: url("cross.png");
+    background-size: cover;
+    opacity: 0.6;
+    display: none;
+}
+.changeTextLeft, .changeTextRight{
+    color: black;
+}
+.firstLeft{
+    background: #ffd445;
+}
+.secondLeft {
+    background: #f5c425;
+}
+.thirdLeft{
+    background: #f57825;
+}
+.fourthLeft{
+    background: #f53d25;
+}
+.fifthLeft{
+    background: #aa11b8;
+}
+.sixthLeft{
+    background: #fa82dc;
+}
+.seventhLeft{
+    background: #f054a2;
+}
+.eighthLeft{
+    background: #f73434;
+}
+.firstRight{
+    background: #5b0f8a;
+}
+.secondRight{
+    background: #692991;
+}
+.thirdRight{
+    background: #5ebcf2;
+}
+.fourthRight{
+    background: #5ef2f0;
+}
+.fifthRight{
+    background: #5ef2d0;
+}
+.sixthRight{
+    background: #5ef2a8;
+}
+.seventhRight{
+    background: #58e09c;
+}
+.eighthRight{
+    background: #9ef0a6;
+}
+h2{
+    font-weight:lighter;
+    text-transform: uppercase;
+}
+.headerLeft p, .headerRight p{
+    color: grey;
+    font-size: 12px;
+}
+.right{
+    width: 40%;
+    min-width: 300px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 30px 0;
+}
+.rightButtons{
+    display: flex;
+    justify-content: space-between;
+}
+.rightButtons p{
+    font-size: 18px;
+    margin: 5px;
+    display: inline-block;
+}
+#pop, #ame, #ita, #gre, #sea, #lat, #asi, #ind{
+    display: flex;
+    align-items: center;
+    border: 1px solid grey;
+    border-radius: 20px;
+    padding: 2px 10px;
+    box-sizing: border-box;
+}
+
+/*          END TAGS      */
