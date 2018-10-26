@@ -9,50 +9,51 @@
 </head>
 
 <body>
-    <div id="ingredients">
-        <div id="serveses">
-            <div id="serves_2">
-                <p>Serves 2</p>
+    <div class="ingredients">
+        <form method="GET" class="my_form" name="form" onsubmit="return return_object(this);">
+            <div class="all">
+        <div class="serveses">
+            <div class="serves_2 serves">
+                Serves 2
             </div>
-            <div id="serves_4">
-                <p>Serves 4</p>
+            <div class="serves_4 serves">
+                Serves 4
             </div>
-            <div id="serves_6">
-                <p>Serves 6</p>
+            <div class="serves_6 serves">
+                Serves 6
             </div>
         </div>
-        <div id="serves_2_table">
-            <form method="GET" id="my_form_2" name="tt">
-                <table id="myTable_2"></table>
-            </form>
+        <div class="serves_2_table serves_table">
+                <table class="myTable_2"></table>
             <div class="addIngredient_2">
-                <button id="oneIngredient_2">+Ingredient</button>
-                <button id="tenIngredient_2">+10 slots</button>
+                <button class="oneIngredient_2">+Ingredient</button>
+                <button class="tenIngredient_2">+10 slots</button>
             </div>
         </div>
-        <div id="serves_4_table">
-            <form method="GET" id="'my_form_4">
-                <table id="myTable_4"></table>
-            </form>
+        <div class="serves_4_table serves_table">
+                <table class="myTable_4"></table>
             <div class="addIngredient_4">
-                <button id="oneIngredient_4">+Ingredient</button>
-                <button id="tenIngredient_4">+10 slots</button>
+                <button class="oneIngredient_4">+Ingredient</button>
+                <button class="tenIngredient_4">+10 slots</button>
             </div>
         </div>
-        <div id="serves_6_table">
-            <form method="GET" id="'my_form_6">
-                <table id="myTable_6"></table>
-            </form>
+        <div class="serves_6_table serves_table">
+                <table class="myTable_6"></table>
             <div class="addIngredient_6">
-                <button id="oneIngredient_6">+Ingredient</button>
-                <button id="tenIngredient_6">+10 slots</button>
+                <button class="oneIngredient_6">+Ingredient</button>
+                <button class="tenIngredient_6">+10 slots</button>
             </div>
         </div>
-
+            </div>
+            <input class="last" type="submit" value="Submit">
+        </form>
+        <div class="addIngredients">
+            <button id="newForm">New Form</button>
+        </div>
     </div>
 
 
-
+<div id="objectPlace"></div>
 
     <div id="tags">
         <div class="left">

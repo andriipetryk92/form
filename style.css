@@ -3,24 +3,24 @@ body{
 }
 
 /*             START INDREDIENTS    */
-#ingredients{
+.ingredients{
     width: 80%;
     background: white;
     margin: 0 auto;
 }
-#serveses{
+.serveses{
     display: flex;
     justify-content: flex-start;
     flex-direction: row;
 }
-#serves_2{
+.serves_2{
     font-weight: bold;
     display: block;
 }
-#serves_2, #serves_4{
+.serves_2, .serves_4{
    margin-right: 20px;
 }
-#serves_4, #serves_6, #serves_2 {
+.serves_4, .serves_6, .serves_2 {
     cursor: pointer;
 }
 input[type=text] {
@@ -106,9 +106,9 @@ select option{
 .addIngredient_2, .addIngredient_4, .addIngredient_6{
     display: flex;
     justify-content: flex-start;
-    padding: 35px 0 60px 55px;
+    padding: 35px 0 40px 55px;
 }
-#oneIngredient_2, #tenIngredient_2, #oneIngredient_4, #tenIngredient_4, #oneIngredient_6, #tenIngredient_6{
+.oneIngredient_2, .tenIngredient_2, .oneIngredient_4, .tenIngredient_4, .oneIngredient_6, .tenIngredient_6{
     width: 100px;
     height: 40px;
     margin: 15px;
@@ -117,14 +117,14 @@ select option{
     font-size: 15px;
     cursor: pointer;
 }
-#oneIngredient_2:focus, #tenIngredient_2:focus, #oneIngredient_4:focus, #tenIngredient_4:focus, #oneIngredient_6:focus, #tenIngredient_6:focus{
+.oneIngredient_2:focus, .tenIngredient_2:focus, .oneIngredient_4:focus, .tenIngredient_4:focus, .oneIngredient_6:focus, .tenIngredient_6:focus{
     outline: none;
 }
-#oneIngredient_2, #oneIngredient_4, #oneIngredient_6{
+.oneIngredient_2, .oneIngredient_4, .oneIngredient_6{
     color: white;
     background: #f72f2f;
 }
-#tenIngredient_2, #tenIngredient_4, #tenIngredient_6{
+.tenIngredient_2, .tenIngredient_4, .tenIngredient_6{
     color: grey;
     background: white;
     border: 1px solid grey;
@@ -133,6 +133,26 @@ select option{
 
 /*          END       BUTTONS       */
 
+.addIngredients{
+    background: white;
+    padding: 50px;
+    margin-left: 20px;
+}
+#newForm, .last{
+    height: 40px;
+    border: none;
+    border-radius: 15px;
+    background: #f72f2f;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+    outline: none;
+    width: 100px;
+}
+.last{
+    margin: 0 70px;
+    width: 70px;
+}
 
 /*              START    TAGS             */
 
