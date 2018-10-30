@@ -1,8 +1,6 @@
 body{
     background: aliceblue;
 }
-
-/*             START INDREDIENTS    */
 .ingredients{
     width: 80%;
     background: white;
@@ -62,7 +60,6 @@ input:focus, select:focus{
     background : url('drop-down-arrow.png') no-repeat 100% 50%;
 }
 
-
 select{
     -webkit-appearance: none;
 }
@@ -98,10 +95,6 @@ select option{
 #serves_4_table, #serves_6_table {
     display: none;
 }
-/*           END     INGREDIENTS        */
-
-
-/*           ADD     BUTTONS          */
 
 .addIngredient_2, .addIngredient_4, .addIngredient_6{
     display: flex;
@@ -130,9 +123,6 @@ select option{
     border: 1px solid grey;
 }
 
-
-/*          END       BUTTONS       */
-
 .addIngredients{
     background: white;
     padding: 50px;
@@ -153,8 +143,6 @@ select option{
     margin: 0 70px;
     width: 70px;
 }
-
-/*              START    TAGS             */
 
 #tags{
     height: 350px;
@@ -312,5 +300,3 @@ h2{
     padding: 2px 10px;
     box-sizing: border-box;
 }
-
-/*          END TAGS      */

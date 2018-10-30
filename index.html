@@ -5,45 +5,45 @@
     <meta charset="UTF-8">
     <title>Tags</title>
     <link href="style.css" rel="stylesheet" type="text/css">
-    <script src="js.js" defer></script>
+
 </head>
 
 <body>
     <div class="ingredients">
-        <form method="GET" class="my_form" name="form" onsubmit="return return_object(this);">
+        <form method="GET" class="my_form" name="form" onsubmit="return return_object(this)">
             <div class="all">
-        <div class="serveses">
-            <div class="serves_2 serves">
-                Serves 2
+            <div class="serveses">
+                <div class="serves_2 serves">
+                    Serves 2
+                </div>
+                <div class="serves_4 serves">
+                    Serves 4
+                </div>
+                <div class="serves_6 serves">
+                    Serves 6
+                </div>
             </div>
-            <div class="serves_4 serves">
-                Serves 4
+            <div class="serves_2_table serves_table">
+                    <table class="myTable_2"></table>
+                <div class="addIngredient_2">
+                    <button type="button" class="oneIngredient_2 add_button" data-type="1">+Ingredient</button>
+                    <button type="button" class="tenIngredient_2 add_button" data-type="10">+10 slots</button>
+                </div>
             </div>
-            <div class="serves_6 serves">
-                Serves 6
+            <div class="serves_4_table serves_table">
+                    <table class="myTable_4"></table>
+                <div class="addIngredient_4">
+                    <button type="button" class="oneIngredient_4 add_button" data-type="1">+Ingredient</button>
+                    <button type="button" class="tenIngredient_4 add_button" data-type="10">+10 slots</button>
+                </div>
             </div>
-        </div>
-        <div class="serves_2_table serves_table">
-                <table class="myTable_2"></table>
-            <div class="addIngredient_2">
-                <button class="oneIngredient_2">+Ingredient</button>
-                <button class="tenIngredient_2">+10 slots</button>
+            <div class="serves_6_table serves_table">
+                    <table class="myTable_6"></table>
+                <div class="addIngredient_6">
+                    <button type="button" class="oneIngredient_6 add_button" data-type="1">+Ingredient</button>
+                    <button type="button" class="tenIngredient_6 add_button" data-type="10">+10 slots</button>
+                </div>
             </div>
-        </div>
-        <div class="serves_4_table serves_table">
-                <table class="myTable_4"></table>
-            <div class="addIngredient_4">
-                <button class="oneIngredient_4">+Ingredient</button>
-                <button class="tenIngredient_4">+10 slots</button>
-            </div>
-        </div>
-        <div class="serves_6_table serves_table">
-                <table class="myTable_6"></table>
-            <div class="addIngredient_6">
-                <button class="oneIngredient_6">+Ingredient</button>
-                <button class="tenIngredient_6">+10 slots</button>
-            </div>
-        </div>
             </div>
             <input class="last" type="submit" value="Submit">
         </form>
@@ -226,5 +226,6 @@
         </div>
     </div>
 </body>
-
+    <script src="form_serveses.js" defer></script>
+    <script src="tags.js" defer></script>
 </html>
