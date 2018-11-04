@@ -1,0 +1,243 @@
+%serves-buttons {
+    border: none;
+    border-radius: 20px;
+    color: white;
+    background: #f72f2f;
+    margin: 10px 0 40px 60px;
+}
+%text-tags{
+    font-size: 18px;
+    margin: 1px;
+    display: inline-block;
+}
+%diets-foods-items{
+    display: flex;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+%diets-foods-inside-items{
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    border: 1px solid grey;
+    border-radius: 20px;
+    padding: 2px 10px;
+}
+%circle-diets-foods{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+body {
+    background: aliceblue;
+    button {
+        width: 100px;
+    }
+    .my_form {
+        .serveses {
+            color: grey;
+            font-size: 14px;
+        }
+        .serves_2 {
+            font-weight: bold;
+            display: block;
+            color: black;
+        }
+        .serves_4, .serves_6, .serves_2 {
+            cursor: pointer;
+        }
+        .serves_2_table, .serves_4_table, .serves_6_table {
+            .addIngredient_2, .addIngredient_4, .addIngredient_6 {
+                padding: 25px 0 40px 60px;
+                .add_button {
+                    @extend %serves-buttons;
+                    margin: 25px 0 10px 0;
+                }
+                .tenIngredient_2, .tenIngredient_4, .tenIngredient_6 {
+                    color: grey;
+                    background: white;
+                    border: 1px solid grey;
+                }
+            }
+            .table {
+                tr {
+                    height: 50px;
+                    display: flex;
+                    th {
+                        width: 4%;
+                    }
+                    .firstInput {
+                        width: 22%;
+                    }
+                    .secondInput, .firstSelect, .secondSelect {
+                        width: 9%;
+                    }
+                    td {
+                        margin: 0 12px;
+                        padding: 0;
+                        font-size: 12px;
+                        input[type=text] {
+                            border: none;
+                            border-bottom: 1px solid grey;
+                            margin-top: 6px;
+                            line-height: 25px;
+                            background: transparent;
+                        }
+                        input:focus, select:focus {
+                            outline: none;
+                        }
+                        .selectFirst_2, .selectSecond_2, .selectFirst_4, .selectSecond_4, .selectFirst_6, .selectSecond_6 {
+                            width: 100%;
+                            height: 29px;
+                            margin-top: 5px;
+                            border: none;
+                            color: grey;
+                            border-bottom: 1px solid grey;
+                            background: url('drop-down-arrow.png') no-repeat 100% 50%;
+                        }
+                        select {
+                            -webkit-appearance: none;
+                            option {
+                                margin: 40px;
+                                background: rgba(0, 0, 0, 0.3);
+                                color: #fff;
+                                text-shadow: 0 1px 0 rgba(0, 0, 0, 0.4);
+                            }
+                        }
+                    }
+                }
+                tr:nth-child(2n) {
+                    background-color: #f2f2f2;
+                }
+            }
+        }
+        .submit {
+            @extend %serves-buttons;
+        }
+    }
+    #newForm {
+        @extend %serves-buttons;
+    }
+    h2 {
+        text-transform: uppercase;
+    }
+    .diets{
+        padding: 30px 0;
+        .headerDiets{
+            p{
+                color: grey;
+                font-size: 12px;
+            }
+        }
+        .dietsButtons {
+            p {
+                @extend %text-tags;
+            }
+            #low-carb, #paleo, #vegan, #gluten-free,
+            #ketogenic, #macros, #vegetarian, #low-calorie{
+                @extend %diets-foods-items;
+                #low, #pal, #veg, #glu, #ket, #mac, #veg1, #low1{
+                    @extend %diets-foods-inside-items;
+                    .circleDiets{
+                        @extend %circle-diets-foods;
+                    }
+                    .changeTextDiets{
+                        color: black;
+                    }
+                }
+            }
+            .firstDiets {
+                background: #ffd445;
+            }
+            .secondDiets {
+                background: #f5c425;
+            }
+            .thirdDiets {
+                background: #f57825;
+            }
+            .fourthDiets {
+                background: #f53d25;
+            }
+            .fifthDiets {
+                background: #aa11b8;
+            }
+            .sixthDiets {
+                background: #fa82dc;
+            }
+            .seventhDiets {
+                background: #f054a2;
+            }
+            .eighthDiets {
+                background: #f73434;
+            }
+        }
+    }
+    .foods {
+        padding: 30px 0;
+        .headerFoods{
+            p{
+                color: grey;
+                font-size: 12px;
+            }
+        }
+        .foodsButtons {
+            p {
+                @extend %text-tags;
+            }
+            #popular, #americana, #italian, #greek,
+            #seasonal, #latin, #asian, #indian{
+                @extend %diets-foods-items;
+                #pop, #ame, #ita, #gre, #sea, #lat, #asi, #ind{
+                    @extend %diets-foods-inside-items;
+                    .circleFoods{
+                        @extend %circle-diets-foods;
+                    }
+                    .changeTextFoods{
+                        color: black;
+                    }
+                }
+            }
+            .firstFoods {
+                background: #5b0f8a;
+            }
+            .secondFoods {
+                background: #692991;
+            }
+            .thirdFoods {
+                background: #5ebcf2;
+            }
+            .fourthFoods {
+                background: #5ef2f0;
+            }
+            .fifthFoods {
+                background: #5ef2d0;
+            }
+            .sixthFoods {
+                background: #5ef2a8;
+            }
+            .seventhFoods {
+                background: #58e09c;
+            }
+            .eighthFoods {
+                background: #9ef0a6;
+            }
+        }
+    }
+    .imgClose {
+        width: 13px;
+        height: 13px;
+        border: 3px solid;
+        border-radius: 50%;
+        background: white;
+        background-image: url("cross.png");
+        background-size: cover;
+        opacity: 0.6;
+        display: none;
+        cursor: pointer;
+    }
+}
+
+
+
+
+

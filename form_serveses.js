@@ -24,24 +24,24 @@ let addTr = (type, quantity, containerNumber = 0) => {
 
         let row = document.querySelectorAll('.all:nth-child(' + (containerNumber + 1) + ') .myTable_' + type)[0].insertRow();
         row.innerHTML =
-            `                       <th>${length + index}</th>\n` +
-            `                       <td class="firstInput"><input value="${firstInput}" class="table_${type}_input inputFirst_2" placeholder="Ingredient" type="text" name="ingredient_${length + index}"></td>\n` +
-            `                       <td class="secondInput"><input value="${secondInput}" class="table_${type}_input inputSecond_2" placeholder="Amount" type="text" name="amount_${length + index}"></td>\n` +
-            `                       <td class="firstSelect"><select class="table_${type}_input selectFirst_2" name="unit_${length + index}" onchange="selectOption(this);">\n` +
-            `                           <option value="" disabled selected>Unit</option>\n` +
-            `                           <option value="1">1</option>\n` +
-            `                           <option value="2">2</option>\n` +
-            `                           <option value="3">3</option>\n` +
-            `                           <option value="4">4</option>\n` +
-            `                       </select></td>\n` +
-            `                       <td class="thirdInput"><input value="${thirdInput}" class="table_${type}_input inputThird_2" placeholder="Product URL" type="text" name="url_${length + index}"></td>\n` +
-            `                       <td class="secondSelect"><select class="table_${type}_input selectSecond_2" name="city_${length + index}" onchange="selectOption(this);">\n` +
-            `                           <option value="" disabled selected>City</option>\n` +
-            `                           <option value="ternopil">Ternopil</option>\n` +
-            `                           <option value="lviv">Lviv</option>\n` +
-            `                           <option value="Kyiv">Kyiv</option>\n` +
-            `                           <option value="dnipro">Dnipro</option>\n` +
-            `                       </select></td>`;
+            `<th class="font-weight-bold ml-2">${length + index}.</th>\n` +
+            `<td class="firstInput"><input value="${firstInput}" class="table_${type}_input inputFirst_2 p-0 w-100" placeholder="Ingredient" type="text" name="ingredient_${length + index}"></td>\n` +
+            `<td class="secondInput"><input value="${secondInput}" class="table_${type}_input inputSecond_2 p-0 w-100" placeholder="Amount" type="text" name="amount_${length + index}"></td>\n` +
+            `<td class="firstSelect"><select class="table_${type}_input selectFirst_2" name="unit_${length + index}" onchange="selectOption(this);">\n` +
+            `    <option value="" disabled selected>Unit</option>\n` +
+            `    <option value="1">1</option>\n` +
+            `    <option value="2">2</option>\n` +
+            `    <option value="3">3</option>\n` +
+            `    <option value="4">4</option>\n` +
+            `</select></td>\n` +
+            `<td class="thirdInput w-25"><input value="${thirdInput}" class="table_${type}_input inputThird_2 w-100" placeholder="Product URL" type="text" name="url_${length + index}"></td>\n` +
+            `<td class="secondSelect"><select class="table_${type}_input selectSecond_2" name="city_${length + index}" onchange="selectOption(this);">\n` +
+            `    <option value="" disabled selected>City</option>\n` +
+            `    <option value="ternopil">Ternopil</option>\n` +
+            `    <option value="lviv">Lviv</option>\n` +
+            `    <option value="Kyiv">Kyiv</option>\n` +
+            `    <option value="dnipro">Dnipro</option>\n` +
+            `</select></td>`;
         row.className = "row_" + type;
     }
 };
@@ -71,10 +71,13 @@ document.addEventListener('click', function (e) {
         for (let i = 0; i < serves.length; i++) {
             serves[i].style.fontWeight = 'normal';
         }
+        e.target.style.color = 'black';
         e.target.style.fontWeight = 'bold';
         let serves_tables = e.target.parentNode.parentNode.getElementsByClassName('serves_table');
         for (let i = 0; i < serves_tables.length; i++) {
             serves_tables[i].style.display = 'none';
+            serves[i].style.color = 'grey';
+            e.target.style.color = 'black';
         }
         e.target.parentNode.parentNode.getElementsByClassName('serves_' + index * 2 + '_table')[0].style.display = 'block';
     } else if (Array.from(e.target.classList).indexOf('add_button') !== -1) {

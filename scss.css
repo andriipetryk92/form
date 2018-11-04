@@ -1,0 +1,200 @@
+body .my_form .serves_2_table .addIngredient_2 .add_button, body .my_form .serves_2_table .addIngredient_4 .add_button, body .my_form .serves_2_table .addIngredient_6 .add_button, body .my_form .serves_4_table .addIngredient_2 .add_button, body .my_form .serves_4_table .addIngredient_4 .add_button, body .my_form .serves_4_table .addIngredient_6 .add_button, body .my_form .serves_6_table .addIngredient_2 .add_button, body .my_form .serves_6_table .addIngredient_4 .add_button, body .my_form .serves_6_table .addIngredient_6 .add_button, body .my_form .submit, body #newForm {
+  border: none;
+  border-radius: 20px;
+  color: white;
+  background: #f72f2f;
+  margin: 10px 0 40px 60px; }
+
+body .diets .dietsButtons p, body .foods .foodsButtons p {
+  font-size: 18px;
+  margin: 1px;
+  display: inline-block; }
+
+body .diets .dietsButtons #low-carb, body .diets .dietsButtons #paleo, body .diets .dietsButtons #vegan, body .diets .dietsButtons #gluten-free,
+body .diets .dietsButtons #ketogenic, body .diets .dietsButtons #macros, body .diets .dietsButtons #vegetarian, body .diets .dietsButtons #low-calorie, body .foods .foodsButtons #popular, body .foods .foodsButtons #americana, body .foods .foodsButtons #italian, body .foods .foodsButtons #greek,
+body .foods .foodsButtons #seasonal, body .foods .foodsButtons #latin, body .foods .foodsButtons #asian, body .foods .foodsButtons #indian {
+  display: flex;
+  margin-bottom: 10px;
+  cursor: pointer; }
+
+body .diets .dietsButtons #low-carb #low, body .diets .dietsButtons #low-carb #pal, body .diets .dietsButtons #low-carb #veg, body .diets .dietsButtons #low-carb #glu, body .diets .dietsButtons #low-carb #ket, body .diets .dietsButtons #low-carb #mac, body .diets .dietsButtons #low-carb #veg1, body .diets .dietsButtons #low-carb #low1, body .diets .dietsButtons #paleo #low, body .diets .dietsButtons #paleo #pal, body .diets .dietsButtons #paleo #veg, body .diets .dietsButtons #paleo #glu, body .diets .dietsButtons #paleo #ket, body .diets .dietsButtons #paleo #mac, body .diets .dietsButtons #paleo #veg1, body .diets .dietsButtons #paleo #low1, body .diets .dietsButtons #vegan #low, body .diets .dietsButtons #vegan #pal, body .diets .dietsButtons #vegan #veg, body .diets .dietsButtons #vegan #glu, body .diets .dietsButtons #vegan #ket, body .diets .dietsButtons #vegan #mac, body .diets .dietsButtons #vegan #veg1, body .diets .dietsButtons #vegan #low1, body .diets .dietsButtons #gluten-free #low, body .diets .dietsButtons #gluten-free #pal, body .diets .dietsButtons #gluten-free #veg, body .diets .dietsButtons #gluten-free #glu, body .diets .dietsButtons #gluten-free #ket, body .diets .dietsButtons #gluten-free #mac, body .diets .dietsButtons #gluten-free #veg1, body .diets .dietsButtons #gluten-free #low1,
+body .diets .dietsButtons #ketogenic #low,
+body .diets .dietsButtons #ketogenic #pal,
+body .diets .dietsButtons #ketogenic #veg,
+body .diets .dietsButtons #ketogenic #glu,
+body .diets .dietsButtons #ketogenic #ket,
+body .diets .dietsButtons #ketogenic #mac,
+body .diets .dietsButtons #ketogenic #veg1,
+body .diets .dietsButtons #ketogenic #low1, body .diets .dietsButtons #macros #low, body .diets .dietsButtons #macros #pal, body .diets .dietsButtons #macros #veg, body .diets .dietsButtons #macros #glu, body .diets .dietsButtons #macros #ket, body .diets .dietsButtons #macros #mac, body .diets .dietsButtons #macros #veg1, body .diets .dietsButtons #macros #low1, body .diets .dietsButtons #vegetarian #low, body .diets .dietsButtons #vegetarian #pal, body .diets .dietsButtons #vegetarian #veg, body .diets .dietsButtons #vegetarian #glu, body .diets .dietsButtons #vegetarian #ket, body .diets .dietsButtons #vegetarian #mac, body .diets .dietsButtons #vegetarian #veg1, body .diets .dietsButtons #vegetarian #low1, body .diets .dietsButtons #low-calorie #low, body .diets .dietsButtons #low-calorie #pal, body .diets .dietsButtons #low-calorie #veg, body .diets .dietsButtons #low-calorie #glu, body .diets .dietsButtons #low-calorie #ket, body .diets .dietsButtons #low-calorie #mac, body .diets .dietsButtons #low-calorie #veg1, body .diets .dietsButtons #low-calorie #low1, body .foods .foodsButtons #popular #pop, body .foods .foodsButtons #popular #ame, body .foods .foodsButtons #popular #ita, body .foods .foodsButtons #popular #gre, body .foods .foodsButtons #popular #sea, body .foods .foodsButtons #popular #lat, body .foods .foodsButtons #popular #asi, body .foods .foodsButtons #popular #ind, body .foods .foodsButtons #americana #pop, body .foods .foodsButtons #americana #ame, body .foods .foodsButtons #americana #ita, body .foods .foodsButtons #americana #gre, body .foods .foodsButtons #americana #sea, body .foods .foodsButtons #americana #lat, body .foods .foodsButtons #americana #asi, body .foods .foodsButtons #americana #ind, body .foods .foodsButtons #italian #pop, body .foods .foodsButtons #italian #ame, body .foods .foodsButtons #italian #ita, body .foods .foodsButtons #italian #gre, body .foods .foodsButtons #italian #sea, body .foods .foodsButtons #italian #lat, body .foods .foodsButtons #italian #asi, body .foods .foodsButtons #italian #ind, body .foods .foodsButtons #greek #pop, body .foods .foodsButtons #greek #ame, body .foods .foodsButtons #greek #ita, body .foods .foodsButtons #greek #gre, body .foods .foodsButtons #greek #sea, body .foods .foodsButtons #greek #lat, body .foods .foodsButtons #greek #asi, body .foods .foodsButtons #greek #ind,
+body .foods .foodsButtons #seasonal #pop,
+body .foods .foodsButtons #seasonal #ame,
+body .foods .foodsButtons #seasonal #ita,
+body .foods .foodsButtons #seasonal #gre,
+body .foods .foodsButtons #seasonal #sea,
+body .foods .foodsButtons #seasonal #lat,
+body .foods .foodsButtons #seasonal #asi,
+body .foods .foodsButtons #seasonal #ind, body .foods .foodsButtons #latin #pop, body .foods .foodsButtons #latin #ame, body .foods .foodsButtons #latin #ita, body .foods .foodsButtons #latin #gre, body .foods .foodsButtons #latin #sea, body .foods .foodsButtons #latin #lat, body .foods .foodsButtons #latin #asi, body .foods .foodsButtons #latin #ind, body .foods .foodsButtons #asian #pop, body .foods .foodsButtons #asian #ame, body .foods .foodsButtons #asian #ita, body .foods .foodsButtons #asian #gre, body .foods .foodsButtons #asian #sea, body .foods .foodsButtons #asian #lat, body .foods .foodsButtons #asian #asi, body .foods .foodsButtons #asian #ind, body .foods .foodsButtons #indian #pop, body .foods .foodsButtons #indian #ame, body .foods .foodsButtons #indian #ita, body .foods .foodsButtons #indian #gre, body .foods .foodsButtons #indian #sea, body .foods .foodsButtons #indian #lat, body .foods .foodsButtons #indian #asi, body .foods .foodsButtons #indian #ind {
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+  border: 1px solid grey;
+  border-radius: 20px;
+  padding: 2px 10px; }
+
+body .diets .dietsButtons #low-carb #low .circleDiets, body .diets .dietsButtons #low-carb #pal .circleDiets, body .diets .dietsButtons #low-carb #veg .circleDiets, body .diets .dietsButtons #low-carb #glu .circleDiets, body .diets .dietsButtons #low-carb #ket .circleDiets, body .diets .dietsButtons #low-carb #mac .circleDiets, body .diets .dietsButtons #low-carb #veg1 .circleDiets, body .diets .dietsButtons #low-carb #low1 .circleDiets, body .diets .dietsButtons #paleo #low .circleDiets, body .diets .dietsButtons #paleo #pal .circleDiets, body .diets .dietsButtons #paleo #veg .circleDiets, body .diets .dietsButtons #paleo #glu .circleDiets, body .diets .dietsButtons #paleo #ket .circleDiets, body .diets .dietsButtons #paleo #mac .circleDiets, body .diets .dietsButtons #paleo #veg1 .circleDiets, body .diets .dietsButtons #paleo #low1 .circleDiets, body .diets .dietsButtons #vegan #low .circleDiets, body .diets .dietsButtons #vegan #pal .circleDiets, body .diets .dietsButtons #vegan #veg .circleDiets, body .diets .dietsButtons #vegan #glu .circleDiets, body .diets .dietsButtons #vegan #ket .circleDiets, body .diets .dietsButtons #vegan #mac .circleDiets, body .diets .dietsButtons #vegan #veg1 .circleDiets, body .diets .dietsButtons #vegan #low1 .circleDiets, body .diets .dietsButtons #gluten-free #low .circleDiets, body .diets .dietsButtons #gluten-free #pal .circleDiets, body .diets .dietsButtons #gluten-free #veg .circleDiets, body .diets .dietsButtons #gluten-free #glu .circleDiets, body .diets .dietsButtons #gluten-free #ket .circleDiets, body .diets .dietsButtons #gluten-free #mac .circleDiets, body .diets .dietsButtons #gluten-free #veg1 .circleDiets, body .diets .dietsButtons #gluten-free #low1 .circleDiets,
+body .diets .dietsButtons #ketogenic #low .circleDiets,
+body .diets .dietsButtons #ketogenic #pal .circleDiets,
+body .diets .dietsButtons #ketogenic #veg .circleDiets,
+body .diets .dietsButtons #ketogenic #glu .circleDiets,
+body .diets .dietsButtons #ketogenic #ket .circleDiets,
+body .diets .dietsButtons #ketogenic #mac .circleDiets,
+body .diets .dietsButtons #ketogenic #veg1 .circleDiets,
+body .diets .dietsButtons #ketogenic #low1 .circleDiets, body .diets .dietsButtons #macros #low .circleDiets, body .diets .dietsButtons #macros #pal .circleDiets, body .diets .dietsButtons #macros #veg .circleDiets, body .diets .dietsButtons #macros #glu .circleDiets, body .diets .dietsButtons #macros #ket .circleDiets, body .diets .dietsButtons #macros #mac .circleDiets, body .diets .dietsButtons #macros #veg1 .circleDiets, body .diets .dietsButtons #macros #low1 .circleDiets, body .diets .dietsButtons #vegetarian #low .circleDiets, body .diets .dietsButtons #vegetarian #pal .circleDiets, body .diets .dietsButtons #vegetarian #veg .circleDiets, body .diets .dietsButtons #vegetarian #glu .circleDiets, body .diets .dietsButtons #vegetarian #ket .circleDiets, body .diets .dietsButtons #vegetarian #mac .circleDiets, body .diets .dietsButtons #vegetarian #veg1 .circleDiets, body .diets .dietsButtons #vegetarian #low1 .circleDiets, body .diets .dietsButtons #low-calorie #low .circleDiets, body .diets .dietsButtons #low-calorie #pal .circleDiets, body .diets .dietsButtons #low-calorie #veg .circleDiets, body .diets .dietsButtons #low-calorie #glu .circleDiets, body .diets .dietsButtons #low-calorie #ket .circleDiets, body .diets .dietsButtons #low-calorie #mac .circleDiets, body .diets .dietsButtons #low-calorie #veg1 .circleDiets, body .diets .dietsButtons #low-calorie #low1 .circleDiets, body .foods .foodsButtons #popular #pop .circleFoods, body .foods .foodsButtons #popular #ame .circleFoods, body .foods .foodsButtons #popular #ita .circleFoods, body .foods .foodsButtons #popular #gre .circleFoods, body .foods .foodsButtons #popular #sea .circleFoods, body .foods .foodsButtons #popular #lat .circleFoods, body .foods .foodsButtons #popular #asi .circleFoods, body .foods .foodsButtons #popular #ind .circleFoods, body .foods .foodsButtons #americana #pop .circleFoods, body .foods .foodsButtons #americana #ame .circleFoods, body .foods .foodsButtons #americana #ita .circleFoods, body .foods .foodsButtons #americana #gre .circleFoods, body .foods .foodsButtons #americana #sea .circleFoods, body .foods .foodsButtons #americana #lat .circleFoods, body .foods .foodsButtons #americana #asi .circleFoods, body .foods .foodsButtons #americana #ind .circleFoods, body .foods .foodsButtons #italian #pop .circleFoods, body .foods .foodsButtons #italian #ame .circleFoods, body .foods .foodsButtons #italian #ita .circleFoods, body .foods .foodsButtons #italian #gre .circleFoods, body .foods .foodsButtons #italian #sea .circleFoods, body .foods .foodsButtons #italian #lat .circleFoods, body .foods .foodsButtons #italian #asi .circleFoods, body .foods .foodsButtons #italian #ind .circleFoods, body .foods .foodsButtons #greek #pop .circleFoods, body .foods .foodsButtons #greek #ame .circleFoods, body .foods .foodsButtons #greek #ita .circleFoods, body .foods .foodsButtons #greek #gre .circleFoods, body .foods .foodsButtons #greek #sea .circleFoods, body .foods .foodsButtons #greek #lat .circleFoods, body .foods .foodsButtons #greek #asi .circleFoods, body .foods .foodsButtons #greek #ind .circleFoods,
+body .foods .foodsButtons #seasonal #pop .circleFoods,
+body .foods .foodsButtons #seasonal #ame .circleFoods,
+body .foods .foodsButtons #seasonal #ita .circleFoods,
+body .foods .foodsButtons #seasonal #gre .circleFoods,
+body .foods .foodsButtons #seasonal #sea .circleFoods,
+body .foods .foodsButtons #seasonal #lat .circleFoods,
+body .foods .foodsButtons #seasonal #asi .circleFoods,
+body .foods .foodsButtons #seasonal #ind .circleFoods, body .foods .foodsButtons #latin #pop .circleFoods, body .foods .foodsButtons #latin #ame .circleFoods, body .foods .foodsButtons #latin #ita .circleFoods, body .foods .foodsButtons #latin #gre .circleFoods, body .foods .foodsButtons #latin #sea .circleFoods, body .foods .foodsButtons #latin #lat .circleFoods, body .foods .foodsButtons #latin #asi .circleFoods, body .foods .foodsButtons #latin #ind .circleFoods, body .foods .foodsButtons #asian #pop .circleFoods, body .foods .foodsButtons #asian #ame .circleFoods, body .foods .foodsButtons #asian #ita .circleFoods, body .foods .foodsButtons #asian #gre .circleFoods, body .foods .foodsButtons #asian #sea .circleFoods, body .foods .foodsButtons #asian #lat .circleFoods, body .foods .foodsButtons #asian #asi .circleFoods, body .foods .foodsButtons #asian #ind .circleFoods, body .foods .foodsButtons #indian #pop .circleFoods, body .foods .foodsButtons #indian #ame .circleFoods, body .foods .foodsButtons #indian #ita .circleFoods, body .foods .foodsButtons #indian #gre .circleFoods, body .foods .foodsButtons #indian #sea .circleFoods, body .foods .foodsButtons #indian #lat .circleFoods, body .foods .foodsButtons #indian #asi .circleFoods, body .foods .foodsButtons #indian #ind .circleFoods {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%; }
+
+body {
+  background: aliceblue; }
+  body button {
+    width: 100px; }
+  body .my_form .serveses {
+    color: grey;
+    font-size: 14px; }
+  body .my_form .serves_2 {
+    font-weight: bold;
+    display: block;
+    color: black; }
+  body .my_form .serves_4, body .my_form .serves_6, body .my_form .serves_2 {
+    cursor: pointer; }
+  body .my_form .serves_2_table .addIngredient_2, body .my_form .serves_2_table .addIngredient_4, body .my_form .serves_2_table .addIngredient_6, body .my_form .serves_4_table .addIngredient_2, body .my_form .serves_4_table .addIngredient_4, body .my_form .serves_4_table .addIngredient_6, body .my_form .serves_6_table .addIngredient_2, body .my_form .serves_6_table .addIngredient_4, body .my_form .serves_6_table .addIngredient_6 {
+    padding: 25px 0 40px 60px; }
+    body .my_form .serves_2_table .addIngredient_2 .add_button, body .my_form .serves_2_table .addIngredient_4 .add_button, body .my_form .serves_2_table .addIngredient_6 .add_button, body .my_form .serves_4_table .addIngredient_2 .add_button, body .my_form .serves_4_table .addIngredient_4 .add_button, body .my_form .serves_4_table .addIngredient_6 .add_button, body .my_form .serves_6_table .addIngredient_2 .add_button, body .my_form .serves_6_table .addIngredient_4 .add_button, body .my_form .serves_6_table .addIngredient_6 .add_button {
+      margin: 25px 0 10px 0; }
+    body .my_form .serves_2_table .addIngredient_2 .tenIngredient_2, body .my_form .serves_2_table .addIngredient_2 .tenIngredient_4, body .my_form .serves_2_table .addIngredient_2 .tenIngredient_6, body .my_form .serves_2_table .addIngredient_4 .tenIngredient_2, body .my_form .serves_2_table .addIngredient_4 .tenIngredient_4, body .my_form .serves_2_table .addIngredient_4 .tenIngredient_6, body .my_form .serves_2_table .addIngredient_6 .tenIngredient_2, body .my_form .serves_2_table .addIngredient_6 .tenIngredient_4, body .my_form .serves_2_table .addIngredient_6 .tenIngredient_6, body .my_form .serves_4_table .addIngredient_2 .tenIngredient_2, body .my_form .serves_4_table .addIngredient_2 .tenIngredient_4, body .my_form .serves_4_table .addIngredient_2 .tenIngredient_6, body .my_form .serves_4_table .addIngredient_4 .tenIngredient_2, body .my_form .serves_4_table .addIngredient_4 .tenIngredient_4, body .my_form .serves_4_table .addIngredient_4 .tenIngredient_6, body .my_form .serves_4_table .addIngredient_6 .tenIngredient_2, body .my_form .serves_4_table .addIngredient_6 .tenIngredient_4, body .my_form .serves_4_table .addIngredient_6 .tenIngredient_6, body .my_form .serves_6_table .addIngredient_2 .tenIngredient_2, body .my_form .serves_6_table .addIngredient_2 .tenIngredient_4, body .my_form .serves_6_table .addIngredient_2 .tenIngredient_6, body .my_form .serves_6_table .addIngredient_4 .tenIngredient_2, body .my_form .serves_6_table .addIngredient_4 .tenIngredient_4, body .my_form .serves_6_table .addIngredient_4 .tenIngredient_6, body .my_form .serves_6_table .addIngredient_6 .tenIngredient_2, body .my_form .serves_6_table .addIngredient_6 .tenIngredient_4, body .my_form .serves_6_table .addIngredient_6 .tenIngredient_6 {
+      color: grey;
+      background: white;
+      border: 1px solid grey; }
+  body .my_form .serves_2_table .table tr, body .my_form .serves_4_table .table tr, body .my_form .serves_6_table .table tr {
+    height: 50px;
+    display: flex; }
+    body .my_form .serves_2_table .table tr th, body .my_form .serves_4_table .table tr th, body .my_form .serves_6_table .table tr th {
+      width: 4%; }
+    body .my_form .serves_2_table .table tr .firstInput, body .my_form .serves_4_table .table tr .firstInput, body .my_form .serves_6_table .table tr .firstInput {
+      width: 22%; }
+    body .my_form .serves_2_table .table tr .secondInput, body .my_form .serves_2_table .table tr .firstSelect, body .my_form .serves_2_table .table tr .secondSelect, body .my_form .serves_4_table .table tr .secondInput, body .my_form .serves_4_table .table tr .firstSelect, body .my_form .serves_4_table .table tr .secondSelect, body .my_form .serves_6_table .table tr .secondInput, body .my_form .serves_6_table .table tr .firstSelect, body .my_form .serves_6_table .table tr .secondSelect {
+      width: 9%; }
+    body .my_form .serves_2_table .table tr td, body .my_form .serves_4_table .table tr td, body .my_form .serves_6_table .table tr td {
+      margin: 0 12px;
+      padding: 0;
+      font-size: 12px; }
+      body .my_form .serves_2_table .table tr td input[type=text], body .my_form .serves_4_table .table tr td input[type=text], body .my_form .serves_6_table .table tr td input[type=text] {
+        border: none;
+        border-bottom: 1px solid grey;
+        margin-top: 6px;
+        line-height: 25px;
+        background: transparent; }
+      body .my_form .serves_2_table .table tr td input:focus, body .my_form .serves_2_table .table tr td select:focus, body .my_form .serves_4_table .table tr td input:focus, body .my_form .serves_4_table .table tr td select:focus, body .my_form .serves_6_table .table tr td input:focus, body .my_form .serves_6_table .table tr td select:focus {
+        outline: none; }
+      body .my_form .serves_2_table .table tr td .selectFirst_2, body .my_form .serves_2_table .table tr td .selectSecond_2, body .my_form .serves_2_table .table tr td .selectFirst_4, body .my_form .serves_2_table .table tr td .selectSecond_4, body .my_form .serves_2_table .table tr td .selectFirst_6, body .my_form .serves_2_table .table tr td .selectSecond_6, body .my_form .serves_4_table .table tr td .selectFirst_2, body .my_form .serves_4_table .table tr td .selectSecond_2, body .my_form .serves_4_table .table tr td .selectFirst_4, body .my_form .serves_4_table .table tr td .selectSecond_4, body .my_form .serves_4_table .table tr td .selectFirst_6, body .my_form .serves_4_table .table tr td .selectSecond_6, body .my_form .serves_6_table .table tr td .selectFirst_2, body .my_form .serves_6_table .table tr td .selectSecond_2, body .my_form .serves_6_table .table tr td .selectFirst_4, body .my_form .serves_6_table .table tr td .selectSecond_4, body .my_form .serves_6_table .table tr td .selectFirst_6, body .my_form .serves_6_table .table tr td .selectSecond_6 {
+        width: 100%;
+        height: 29px;
+        margin-top: 5px;
+        border: none;
+        color: grey;
+        border-bottom: 1px solid grey;
+        background: url("drop-down-arrow.png") no-repeat 100% 50%; }
+      body .my_form .serves_2_table .table tr td select, body .my_form .serves_4_table .table tr td select, body .my_form .serves_6_table .table tr td select {
+        -webkit-appearance: none; }
+        body .my_form .serves_2_table .table tr td select option, body .my_form .serves_4_table .table tr td select option, body .my_form .serves_6_table .table tr td select option {
+          margin: 40px;
+          background: rgba(0, 0, 0, 0.3);
+          color: #fff;
+          text-shadow: 0 1px 0 rgba(0, 0, 0, 0.4); }
+  body .my_form .serves_2_table .table tr:nth-child(2n), body .my_form .serves_4_table .table tr:nth-child(2n), body .my_form .serves_6_table .table tr:nth-child(2n) {
+    background-color: #f2f2f2; }
+  body h2 {
+    text-transform: uppercase; }
+  body .diets {
+    padding: 30px 0; }
+    body .diets .headerDiets p {
+      color: grey;
+      font-size: 12px; }
+    body .diets .dietsButtons #low-carb #low .changeTextDiets, body .diets .dietsButtons #low-carb #pal .changeTextDiets, body .diets .dietsButtons #low-carb #veg .changeTextDiets, body .diets .dietsButtons #low-carb #glu .changeTextDiets, body .diets .dietsButtons #low-carb #ket .changeTextDiets, body .diets .dietsButtons #low-carb #mac .changeTextDiets, body .diets .dietsButtons #low-carb #veg1 .changeTextDiets, body .diets .dietsButtons #low-carb #low1 .changeTextDiets, body .diets .dietsButtons #paleo #low .changeTextDiets, body .diets .dietsButtons #paleo #pal .changeTextDiets, body .diets .dietsButtons #paleo #veg .changeTextDiets, body .diets .dietsButtons #paleo #glu .changeTextDiets, body .diets .dietsButtons #paleo #ket .changeTextDiets, body .diets .dietsButtons #paleo #mac .changeTextDiets, body .diets .dietsButtons #paleo #veg1 .changeTextDiets, body .diets .dietsButtons #paleo #low1 .changeTextDiets, body .diets .dietsButtons #vegan #low .changeTextDiets, body .diets .dietsButtons #vegan #pal .changeTextDiets, body .diets .dietsButtons #vegan #veg .changeTextDiets, body .diets .dietsButtons #vegan #glu .changeTextDiets, body .diets .dietsButtons #vegan #ket .changeTextDiets, body .diets .dietsButtons #vegan #mac .changeTextDiets, body .diets .dietsButtons #vegan #veg1 .changeTextDiets, body .diets .dietsButtons #vegan #low1 .changeTextDiets, body .diets .dietsButtons #gluten-free #low .changeTextDiets, body .diets .dietsButtons #gluten-free #pal .changeTextDiets, body .diets .dietsButtons #gluten-free #veg .changeTextDiets, body .diets .dietsButtons #gluten-free #glu .changeTextDiets, body .diets .dietsButtons #gluten-free #ket .changeTextDiets, body .diets .dietsButtons #gluten-free #mac .changeTextDiets, body .diets .dietsButtons #gluten-free #veg1 .changeTextDiets, body .diets .dietsButtons #gluten-free #low1 .changeTextDiets,
+    body .diets .dietsButtons #ketogenic #low .changeTextDiets,
+    body .diets .dietsButtons #ketogenic #pal .changeTextDiets,
+    body .diets .dietsButtons #ketogenic #veg .changeTextDiets,
+    body .diets .dietsButtons #ketogenic #glu .changeTextDiets,
+    body .diets .dietsButtons #ketogenic #ket .changeTextDiets,
+    body .diets .dietsButtons #ketogenic #mac .changeTextDiets,
+    body .diets .dietsButtons #ketogenic #veg1 .changeTextDiets,
+    body .diets .dietsButtons #ketogenic #low1 .changeTextDiets, body .diets .dietsButtons #macros #low .changeTextDiets, body .diets .dietsButtons #macros #pal .changeTextDiets, body .diets .dietsButtons #macros #veg .changeTextDiets, body .diets .dietsButtons #macros #glu .changeTextDiets, body .diets .dietsButtons #macros #ket .changeTextDiets, body .diets .dietsButtons #macros #mac .changeTextDiets, body .diets .dietsButtons #macros #veg1 .changeTextDiets, body .diets .dietsButtons #macros #low1 .changeTextDiets, body .diets .dietsButtons #vegetarian #low .changeTextDiets, body .diets .dietsButtons #vegetarian #pal .changeTextDiets, body .diets .dietsButtons #vegetarian #veg .changeTextDiets, body .diets .dietsButtons #vegetarian #glu .changeTextDiets, body .diets .dietsButtons #vegetarian #ket .changeTextDiets, body .diets .dietsButtons #vegetarian #mac .changeTextDiets, body .diets .dietsButtons #vegetarian #veg1 .changeTextDiets, body .diets .dietsButtons #vegetarian #low1 .changeTextDiets, body .diets .dietsButtons #low-calorie #low .changeTextDiets, body .diets .dietsButtons #low-calorie #pal .changeTextDiets, body .diets .dietsButtons #low-calorie #veg .changeTextDiets, body .diets .dietsButtons #low-calorie #glu .changeTextDiets, body .diets .dietsButtons #low-calorie #ket .changeTextDiets, body .diets .dietsButtons #low-calorie #mac .changeTextDiets, body .diets .dietsButtons #low-calorie #veg1 .changeTextDiets, body .diets .dietsButtons #low-calorie #low1 .changeTextDiets {
+      color: black; }
+    body .diets .dietsButtons .firstDiets {
+      background: #ffd445; }
+    body .diets .dietsButtons .secondDiets {
+      background: #f5c425; }
+    body .diets .dietsButtons .thirdDiets {
+      background: #f57825; }
+    body .diets .dietsButtons .fourthDiets {
+      background: #f53d25; }
+    body .diets .dietsButtons .fifthDiets {
+      background: #aa11b8; }
+    body .diets .dietsButtons .sixthDiets {
+      background: #fa82dc; }
+    body .diets .dietsButtons .seventhDiets {
+      background: #f054a2; }
+    body .diets .dietsButtons .eighthDiets {
+      background: #f73434; }
+  body .foods {
+    padding: 30px 0; }
+    body .foods .headerFoods p {
+      color: grey;
+      font-size: 12px; }
+    body .foods .foodsButtons #popular #pop .changeTextFoods, body .foods .foodsButtons #popular #ame .changeTextFoods, body .foods .foodsButtons #popular #ita .changeTextFoods, body .foods .foodsButtons #popular #gre .changeTextFoods, body .foods .foodsButtons #popular #sea .changeTextFoods, body .foods .foodsButtons #popular #lat .changeTextFoods, body .foods .foodsButtons #popular #asi .changeTextFoods, body .foods .foodsButtons #popular #ind .changeTextFoods, body .foods .foodsButtons #americana #pop .changeTextFoods, body .foods .foodsButtons #americana #ame .changeTextFoods, body .foods .foodsButtons #americana #ita .changeTextFoods, body .foods .foodsButtons #americana #gre .changeTextFoods, body .foods .foodsButtons #americana #sea .changeTextFoods, body .foods .foodsButtons #americana #lat .changeTextFoods, body .foods .foodsButtons #americana #asi .changeTextFoods, body .foods .foodsButtons #americana #ind .changeTextFoods, body .foods .foodsButtons #italian #pop .changeTextFoods, body .foods .foodsButtons #italian #ame .changeTextFoods, body .foods .foodsButtons #italian #ita .changeTextFoods, body .foods .foodsButtons #italian #gre .changeTextFoods, body .foods .foodsButtons #italian #sea .changeTextFoods, body .foods .foodsButtons #italian #lat .changeTextFoods, body .foods .foodsButtons #italian #asi .changeTextFoods, body .foods .foodsButtons #italian #ind .changeTextFoods, body .foods .foodsButtons #greek #pop .changeTextFoods, body .foods .foodsButtons #greek #ame .changeTextFoods, body .foods .foodsButtons #greek #ita .changeTextFoods, body .foods .foodsButtons #greek #gre .changeTextFoods, body .foods .foodsButtons #greek #sea .changeTextFoods, body .foods .foodsButtons #greek #lat .changeTextFoods, body .foods .foodsButtons #greek #asi .changeTextFoods, body .foods .foodsButtons #greek #ind .changeTextFoods,
+    body .foods .foodsButtons #seasonal #pop .changeTextFoods,
+    body .foods .foodsButtons #seasonal #ame .changeTextFoods,
+    body .foods .foodsButtons #seasonal #ita .changeTextFoods,
+    body .foods .foodsButtons #seasonal #gre .changeTextFoods,
+    body .foods .foodsButtons #seasonal #sea .changeTextFoods,
+    body .foods .foodsButtons #seasonal #lat .changeTextFoods,
+    body .foods .foodsButtons #seasonal #asi .changeTextFoods,
+    body .foods .foodsButtons #seasonal #ind .changeTextFoods, body .foods .foodsButtons #latin #pop .changeTextFoods, body .foods .foodsButtons #latin #ame .changeTextFoods, body .foods .foodsButtons #latin #ita .changeTextFoods, body .foods .foodsButtons #latin #gre .changeTextFoods, body .foods .foodsButtons #latin #sea .changeTextFoods, body .foods .foodsButtons #latin #lat .changeTextFoods, body .foods .foodsButtons #latin #asi .changeTextFoods, body .foods .foodsButtons #latin #ind .changeTextFoods, body .foods .foodsButtons #asian #pop .changeTextFoods, body .foods .foodsButtons #asian #ame .changeTextFoods, body .foods .foodsButtons #asian #ita .changeTextFoods, body .foods .foodsButtons #asian #gre .changeTextFoods, body .foods .foodsButtons #asian #sea .changeTextFoods, body .foods .foodsButtons #asian #lat .changeTextFoods, body .foods .foodsButtons #asian #asi .changeTextFoods, body .foods .foodsButtons #asian #ind .changeTextFoods, body .foods .foodsButtons #indian #pop .changeTextFoods, body .foods .foodsButtons #indian #ame .changeTextFoods, body .foods .foodsButtons #indian #ita .changeTextFoods, body .foods .foodsButtons #indian #gre .changeTextFoods, body .foods .foodsButtons #indian #sea .changeTextFoods, body .foods .foodsButtons #indian #lat .changeTextFoods, body .foods .foodsButtons #indian #asi .changeTextFoods, body .foods .foodsButtons #indian #ind .changeTextFoods {
+      color: black; }
+    body .foods .foodsButtons .firstFoods {
+      background: #5b0f8a; }
+    body .foods .foodsButtons .secondFoods {
+      background: #692991; }
+    body .foods .foodsButtons .thirdFoods {
+      background: #5ebcf2; }
+    body .foods .foodsButtons .fourthFoods {
+      background: #5ef2f0; }
+    body .foods .foodsButtons .fifthFoods {
+      background: #5ef2d0; }
+    body .foods .foodsButtons .sixthFoods {
+      background: #5ef2a8; }
+    body .foods .foodsButtons .seventhFoods {
+      background: #58e09c; }
+    body .foods .foodsButtons .eighthFoods {
+      background: #9ef0a6; }
+  body .imgClose {
+    width: 13px;
+    height: 13px;
+    border: 3px solid;
+    border-radius: 50%;
+    background: white;
+    background-image: url("cross.png");
+    background-size: cover;
+    opacity: 0.6;
+    display: none;
+    cursor: pointer; }
+
+/*# sourceMappingURL=scss.css.map */

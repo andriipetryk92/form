@@ -1,231 +1,241 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <title>Tags</title>
-    <link href="style.css" rel="stylesheet" type="text/css">
+    <title>Bootstrap </title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <link href="scss.css" rel="stylesheet" type="text/css">
 
 </head>
-
-<body>
-    <div class="ingredients">
-        <form method="GET" class="my_form" name="form" onsubmit="return return_object(this)">
-            <div class="all">
-            <div class="serveses">
-                <div class="serves_2 serves">
+<body class="m-0">
+<div class="container-fluid p-0 bg-white" style="width: 80%">
+    <form method="GET" class="my_form pt-2" name="form" onsubmit="return return_object(this)">
+        <div class="container-fluid p-0 all">
+            <div class="container-fluid pl-4 serveses d-flex flex-start flex-row">
+                <div class="serves_2 serves mr-4">
                     Serves 2
                 </div>
-                <div class="serves_4 serves">
+                <div class="serves_4 serves mr-4">
                     Serves 4
                 </div>
                 <div class="serves_6 serves">
                     Serves 6
                 </div>
             </div>
-            <div class="serves_2_table serves_table">
-                    <table class="myTable_2"></table>
-                <div class="addIngredient_2">
-                    <button type="button" class="oneIngredient_2 add_button" data-type="1">+Ingredient</button>
-                    <button type="button" class="tenIngredient_2 add_button" data-type="10">+10 slots</button>
+            <div class="container-fluid p-0 serves_2_table serves_table">
+                <table class="myTable_2 table pl-4 table-borderless "></table>
+                <div class="container addIngredient_2">
+                    <button type="button" class="btn mr-4 oneIngredient_2 add_button shadow-none" data-type="1">
+                        +Ingredient
+                    </button>
+                    <button type="button" class="btn tenIngredient_2 text-secondary add_button shadow-none"
+                            data-type="10">+10 Slots
+                    </button>
                 </div>
             </div>
-            <div class="serves_4_table serves_table">
-                    <table class="myTable_4"></table>
-                <div class="addIngredient_4">
-                    <button type="button" class="oneIngredient_4 add_button" data-type="1">+Ingredient</button>
-                    <button type="button" class="tenIngredient_4 add_button" data-type="10">+10 slots</button>
+            <div class="container-fluid p-0 serves_4_table serves_table">
+                <table class="myTable_4 table table-borderless "></table>
+                <div class="container addIngredient_2">
+                    <button type="button" class="btn mr-4 oneIngredient_4 add_button shadow-none" data-type="1">
+                        +Ingredient
+                    </button>
+                    <button type="button" class="btn tenIngredient_4 text-secondary add_button shadow-none"
+                            data-type="10">+10 Slots
+                    </button>
                 </div>
             </div>
-            <div class="serves_6_table serves_table">
-                    <table class="myTable_6"></table>
-                <div class="addIngredient_6">
-                    <button type="button" class="oneIngredient_6 add_button" data-type="1">+Ingredient</button>
-                    <button type="button" class="tenIngredient_6 add_button" data-type="10">+10 slots</button>
+            <div class="container-fluid p-0 serves_6_table serves_table">
+                <table class="myTable_6 table table-borderless "></table>
+                <div class="container addIngredient_6">
+                    <button type="button" class="btn mr-4 oneIngredient_6 add_button shadow-none" data-type="1">
+                        +Ingredient
+                    </button>
+                    <button type="button" class="btn tenIngredient_6 text-secondary add_button shadow-none"
+                            data-type="10">+10 Slots
+                    </button>
                 </div>
             </div>
-            </div>
-            <input class="last" type="submit" value="Submit">
-        </form>
-        <div class="addIngredients">
-            <button id="newForm">New Form</button>
         </div>
-    </div>
-
-
+        <button class="submit btn shadow-none" type="submit" value="Submit">Submit</button>
+    </form>
+    <button class="btn shadow-none" id="newForm">New Form</button>
+</div>
 <div id="objectPlace"></div>
-
-    <div id="tags">
-        <div class="left">
-            <div class="headerLeft">
-                <h2>Diets</h2>
-                <p>Choose a max of (2) tags.</p>
-            </div>
-            <div class="leftButtons">
-                <div id="firstColumn">
-                    <div id="low-carb">
-                        <div class="first" id="low">
-                            <div class="firstLeft circleLeft">
-                            </div>
-                            <p class="changeTextLeft">Low-carb</p>
-                            <div class="firstLeftClose closeLeft">
-                            </div>
-                        </div>
-                    </div>
-                    <div id="paleo">
-                        <div class="first" id="pal">
-                            <div class="secondLeft circleLeft">
-                            </div>
-                            <p class="changeTextLeft">Paleo</p>
-                            <div class="secondLeftClose closeLeft">
-                            </div>
-                        </div>
-                    </div>
-                    <div id="vegan">
-                        <div class="first" id="veg">
-                            <div class="thirdLeft circleLeft">
-                            </div>
-                            <p class="changeTextLeft">Vegan</p>
-                            <div class="thirdLeftClose closeLeft">
-                            </div>
-                        </div>
-                    </div>
-                    <div id="gluten-free">
-                        <div class="first" id="glu">
-                            <div class="fourthLeft circleLeft">
-                            </div>
-                            <p class="changeTextLeft">Gluten-free</p>
-                            <div class="fourthLeftClose closeLeft">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div id="secondColumn">
-                    <div id="ketogenic">
-                        <div class="first" id="ket">
-                            <div class="fifthLeft circleLeft">
-                            </div>
-                            <p class="changeTextLeft">Ketogenic</p>
-                            <div class="fifthLeftClose closeLeft">
-                            </div>
-                        </div>
-                    </div>
-                    <div id="macros">
-                        <div class="first" id="mac">
-                            <div class="sixthLeft circleLeft">
-                            </div>
-                            <p class="changeTextLeft">Macros</p>
-                            <div class="sixthLeftClose closeLeft">
-                            </div>
-                        </div>
-                    </div>
-                    <div id="vegetarian">
-                        <div class="first" id="veg1">
-                            <div class="seventhLeft circleLeft">
-                            </div>
-                            <p class="changeTextLeft">Vegetarian</p>
-                            <div class="seventhLeftClose closeLeft">
-                            </div>
-                        </div>
-                    </div>
-                    <div id="low-calorie">
-                        <div class="first" id="low1">
-                            <div class="eighthLeft circleLeft">
-                            </div>
-                            <p class="changeTextLeft">Low-calorie</p>
-                            <div class="eighthLeftClose closeLeft">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+<div class="container-fluid p-0 pb-5 mt-5 mb-5 bg-white d-flex  justify-content-between" style="width: 80%">
+    <div class="diets col-5 d-flex p-0 pt-5 flex-column">
+        <div class="headerDiets pl-5">
+            <h2 class="mb-0">Diets</h2>
+            <p>Choose a max of (2) tags.</p>
         </div>
-        <div class="right">
-            <div class="headerRight">
-                <h2>Type of food</h2>
-                <p>Choose a max of (1) tags.</p>
-            </div>
-            <div class="rightButtons">
-                <div id="thirdColumn">
-                    <div id="popular">
-                        <div class="second" id="pop">
-                            <div class="firstRight circleRight">
-                            </div>
-                            <p class="changeTextRight">Popular</p>
-                            <div class="firstRightClose closeRight">
-                            </div>
+        <div class="dietsButtons d-flex justify-content-around">
+            <div id="firstColumn d-flex direction-column">
+                <div id="low-carb">
+                    <div class="first" id="low">
+                        <div class="firstDiets circleDiets mr-2">
                         </div>
-                    </div>
-                    <div id="americana">
-                        <div class="second" id="ame">
-                            <div class="secondRight circleRight">
-                            </div>
-                            <p class="changeTextRight">Americana</p>
-                            <div class="secondRightClose closeRight">
-                            </div>
-                        </div>
-                    </div>
-                    <div id="italian">
-                        <div class="second" id="ita">
-                            <div class="thirdRight circleRight">
-                            </div>
-                            <p class="changeTextRight">Italian</p>
-                            <div class="thirdRightClose closeRight">
-                            </div>
-                        </div>
-                    </div>
-                    <div id="greek">
-                        <div class="second" id="gre">
-                            <div class="fourthRight circleRight">
-                            </div>
-                            <p class="changeTextRight">Greek</p>
-                            <div class="fourthRightClose closeRight">
-                            </div>
+                        <p class="changeTextDiets">Low-carb</p>
+                        <div class="imgClose closeDiets ml-2">
                         </div>
                     </div>
                 </div>
-                <div id="fourthColumn">
-                    <div id="seasonal">
-                        <div class="second" id="sea">
-                            <div class="fifthRight circleRight">
-                            </div>
-                            <p class="changeTextRight">Seasonal</p>
-                            <div class="fifthRightClose closeRight">
-                            </div>
+                <div id="paleo">
+                    <div class="first" id="pal">
+                        <div class="secondDiets circleDiets mr-2">
+                        </div>
+                        <p class="changeTextDiets">Paleo</p>
+                        <div class="imgClose closeDiets ml-2">
                         </div>
                     </div>
-                    <div id="latin">
-                        <div class="second" id="lat">
-                            <div class="sixthRight circleRight">
-                            </div>
-                            <p class="changeTextRight">Latin</p>
-                            <div class="sixthRightClose closeRight">
-                            </div>
+                </div>
+                <div id="vegan">
+                    <div class="first" id="veg">
+                        <div class="thirdDiets circleDiets mr-2">
+                        </div>
+                        <p class="changeTextDiets">Vegan</p>
+                        <div class="imgClose closeDiets ml-2">
                         </div>
                     </div>
-                    <div id="asian">
-                        <div class="second" id="asi">
-                            <div class="seventhRight circleRight">
-                            </div>
-                            <p class="changeTextRight">Asian</p>
-                            <div class="seventhRightClose closeRight">
-                            </div>
+                </div>
+                <div id="gluten-free">
+                    <div class="first" id="glu">
+                        <div class="fourthDiets circleDiets mr-2">
+                        </div>
+                        <p class="changeTextDiets">Gluten-free</p>
+                        <div class="imgClose closeDiets ml-2">
                         </div>
                     </div>
-                    <div id="indian">
-                        <div class="second" id="ind">
-                            <div class="eighthRight circleRight">
-                            </div>
-                            <p class="changeTextRight">Indian</p>
-                            <div class="eighthRightClose closeRight">
-                            </div>
+                </div>
+            </div>
+            <div id="secondColumn d-flex direction-column">
+                <div id="ketogenic">
+                    <div class="first" id="ket">
+                        <div class="fifthDiets circleDiets mr-2">
+                        </div>
+                        <p class="changeTextDiets">Ketogenic</p>
+                        <div class="imgClose closeDiets ml-2">
+                        </div>
+                    </div>
+                </div>
+                <div id="macros">
+                    <div class="first" id="mac">
+                        <div class="sixthDiets circleDiets mr-2">
+                        </div>
+                        <p class="changeTextDiets">Macros</p>
+                        <div class="imgClose closeDiets ml-2">
+                        </div>
+                    </div>
+                </div>
+                <div id="vegetarian">
+                    <div class="first" id="veg1">
+                        <div class="seventhDiets circleDiets mr-2">
+                        </div>
+                        <p class="changeTextDiets">Vegetarian</p>
+                        <div class="imgClose closeDiets ml-2">
+                        </div>
+                    </div>
+                </div>
+                <div id="low-calorie">
+                    <div class="first" id="low1">
+                        <div class="eighthDiets circleDiets mr-2">
+                        </div>
+                        <p class="changeTextDiets">Low-calorie</p>
+                        <div class="imgClose closeDiets ml-2">
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+    <div class="foods col-5 d-flex p-0 pt-5 flex-column">
+        <div class="headerFoods pl-5">
+            <h2 class="mb-0">Type of food</h2>
+            <p>Choose a max of (1) tags.</p>
+        </div>
+        <div class="foodsButtons d-flex justify-content-around">
+            <div id="thirdColumn d-flex direction-column">
+                <div id="popular">
+                    <div class="second" id="pop">
+                        <div class="firstFoods circleFoods mr-2">
+                        </div>
+                        <p class="changeTextFoods">Popular</p>
+                        <div class="imgClose closeFoods ml-2">
+                        </div>
+                    </div>
+                </div>
+                <div id="americana">
+                    <div class="second" id="ame">
+                        <div class="secondFoods circleFoods mr-2">
+                        </div>
+                        <p class="changeTextFoods">Americana</p>
+                        <div class="imgClose closeFoods ml-2">
+                        </div>
+                    </div>
+                </div>
+                <div id="italian">
+                    <div class="second" id="ita">
+                        <div class="thirdFoods circleFoods mr-2">
+                        </div>
+                        <p class="changeTextFoods">Italian</p>
+                        <div class="imgClose closeFoods ml-2">
+                        </div>
+                    </div>
+                </div>
+                <div id="greek">
+                    <div class="second" id="gre">
+                        <div class="fourthFoods circleFoods mr-2">
+                        </div>
+                        <p class="changeTextFoods">Greek</p>
+                        <div class="imgClose closeFoods ml-2">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="fourthColumn d-flex direction-column">
+                <div id="seasonal">
+                    <div class="second" id="sea">
+                        <div class="fifthFoods circleFoods mr-2">
+                        </div>
+                        <p class="changeTextFoods">Seasonal</p>
+                        <div class="imgClose closeFoods ml-2">
+                        </div>
+                    </div>
+                </div>
+                <div id="latin">
+                    <div class="second" id="lat">
+                        <div class="sixthFoods circleFoods mr-2">
+                        </div>
+                        <p class="changeTextFoods">Latin</p>
+                        <div class="imgClose closeFoods ml-2">
+                        </div>
+                    </div>
+                </div>
+                <div id="asian">
+                    <div class="second" id="asi">
+                        <div class="seventhFoods circleFoods mr-2">
+                        </div>
+                        <p class="changeTextFoods">Asian</p>
+                        <div class="imgClose closeFoods ml-2">
+                        </div>
+                    </div>
+                </div>
+                <div id="indian">
+                    <div class="second" id="ind">
+                        <div class="eighthFoods circleFoods mr-2">
+                        </div>
+                        <p class="changeTextFoods">Indian</p>
+                        <div class="imgClose closeFoods ml-2">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 </body>
-    <script src="form_serveses.js" defer></script>
-    <script src="tags.js" defer></script>
+<script src="form_serveses.js" defer></script>
+<script src="tags.js" defer></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
 </html>
