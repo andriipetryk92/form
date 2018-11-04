@@ -37,9 +37,9 @@ body .foods .foodsButtons #seasonal #ind, body .foods .foodsButtons #latin #pop,
   display: flex;
   align-items: center;
   box-sizing: border-box;
-  border: 1px solid grey;
+  border: 1px solid #adadad;
   border-radius: 20px;
-  padding: 2px 10px; }
+  padding: 0 10px; }
 
 body .diets .dietsButtons #low-carb #low .circleDiets, body .diets .dietsButtons #low-carb #pal .circleDiets, body .diets .dietsButtons #low-carb #veg .circleDiets, body .diets .dietsButtons #low-carb #glu .circleDiets, body .diets .dietsButtons #low-carb #ket .circleDiets, body .diets .dietsButtons #low-carb #mac .circleDiets, body .diets .dietsButtons #low-carb #veg1 .circleDiets, body .diets .dietsButtons #low-carb #low1 .circleDiets, body .diets .dietsButtons #paleo #low .circleDiets, body .diets .dietsButtons #paleo #pal .circleDiets, body .diets .dietsButtons #paleo #veg .circleDiets, body .diets .dietsButtons #paleo #glu .circleDiets, body .diets .dietsButtons #paleo #ket .circleDiets, body .diets .dietsButtons #paleo #mac .circleDiets, body .diets .dietsButtons #paleo #veg1 .circleDiets, body .diets .dietsButtons #paleo #low1 .circleDiets, body .diets .dietsButtons #vegan #low .circleDiets, body .diets .dietsButtons #vegan #pal .circleDiets, body .diets .dietsButtons #vegan #veg .circleDiets, body .diets .dietsButtons #vegan #glu .circleDiets, body .diets .dietsButtons #vegan #ket .circleDiets, body .diets .dietsButtons #vegan #mac .circleDiets, body .diets .dietsButtons #vegan #veg1 .circleDiets, body .diets .dietsButtons #vegan #low1 .circleDiets, body .diets .dietsButtons #gluten-free #low .circleDiets, body .diets .dietsButtons #gluten-free #pal .circleDiets, body .diets .dietsButtons #gluten-free #veg .circleDiets, body .diets .dietsButtons #gluten-free #glu .circleDiets, body .diets .dietsButtons #gluten-free #ket .circleDiets, body .diets .dietsButtons #gluten-free #mac .circleDiets, body .diets .dietsButtons #gluten-free #veg1 .circleDiets, body .diets .dietsButtons #gluten-free #low1 .circleDiets,
 body .diets .dietsButtons #ketogenic #low .circleDiets,

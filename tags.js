@@ -22,7 +22,7 @@ let dietsClickElement = (t) => {
         dietsChangeText[t].style.color = 'white';
         dietsBigButtonArray[t].style.border = 'none';
         dietsBigButtonArray[t].classList.add('checkedDiets');
-        dietsBigButtonArray[t].style.height = '35px';
+        dietsBigButtonArray[t].style.height = '31px';
     }
 };
 
@@ -40,7 +40,7 @@ let dietsToCloseElement = (g) => {
     dietsCloseElement[g].style.display = 'none';
     dietsChangeText[g].style.color = 'black';
     dietsBigButtonArray[g].classList.remove('checkedDiets');
-    dietsBigButtonArray[g].style.border = '1px solid grey';
+    dietsBigButtonArray[g].style.border = '1px solid #adadad';
 };
 for (let g = 0; g < dietsCloseElement.length; g++) {
     dietsCloseElement[g].onclick = dietsToCloseElement.bind(this, g);
